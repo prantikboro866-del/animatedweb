@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="About Auralian creative studio.">
+	<title>About | Auralian</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap');
+		:root { --ink: #f2efe8; --muted: #b8b5ad; --line: rgba(242,239,232,.22); --acid: #d7f46a; font-family: 'Manrope', sans-serif; color: var(--ink); background: #101210; }
+		* { box-sizing: border-box; } html { scroll-behavior: smooth; } body { margin: 0; background: #101210; } a { color: inherit; text-decoration: none; } ::selection { color: #171a12; background: var(--acid); }
+		.nav, main, footer { width: min(100% - 48px, 1240px); margin-inline: auto; } .nav { display: flex; justify-content: space-between; align-items: center; padding: 28px 0; } .brand { font-size: 15px; font-weight: 700; } .brand span { color: var(--acid); } .links { display: flex; gap: 30px; color: var(--muted); font: 11px 'DM Mono', monospace; text-transform: uppercase; } .links a:hover, .links a[aria-current="page"] { color: var(--acid); }
+		.page-head { padding: 130px 0 95px; border-bottom: 1px solid var(--line); } .kicker { color: var(--acid); font: 11px 'DM Mono', monospace; letter-spacing: .12em; text-transform: uppercase; } h1 { max-width: 900px; margin: 18px 0 0; font-size: clamp(54px, 10vw, 140px); font-weight: 500; letter-spacing: -.08em; line-height: .88; } .lead { max-width: 680px; margin: 32px 0 0; color: var(--muted); font-size: 21px; line-height: 1.6; }
+		.content { display: grid; grid-template-columns: .35fr 1fr; gap: 8vw; padding: 100px 0 150px; } h2 { max-width: 740px; margin: 0 0 28px; font-size: clamp(36px, 5vw, 72px); font-weight: 500; letter-spacing: -.065em; line-height: .98; } .copy { max-width: 620px; color: var(--muted); font-size: 18px; line-height: 1.7; } .values { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; margin-top: 60px; background: var(--line); } .value { min-height: 180px; padding: 22px; background: #171a16; } .value strong { display: block; margin-bottom: 45px; color: var(--acid); font: 11px 'DM Mono', monospace; } .value h3 { margin: 0 0 9px; font-size: 22px; font-weight: 500; } .value p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
+		footer { display: flex; justify-content: space-between; padding: 25px 0; border-top: 1px solid var(--line); color: var(--muted); font: 10px 'DM Mono', monospace; text-transform: uppercase; }
+		@media (max-width: 680px) { .nav, main, footer { width: min(100% - 36px, 1240px); } .links { gap: 13px; font-size: 9px; } .page-head { padding: 90px 0 65px; } .content { grid-template-columns: 1fr; gap: 35px; padding: 80px 0 100px; } .values { grid-template-columns: 1fr; } footer span:last-child { display: none; } }
+	</style>
+</head>
+<body>
+	<nav class="nav" aria-label="Main navigation"><a class="brand" href="index.html">Auralian<span>.</span></a><div class="links"><a href="about.html" aria-current="page">About</a><a href="work.html">Work</a><a href="contact.html">Contact</a></div></nav>
+	<main>
+		<header class="page-head"><div class="kicker">About Auralian / Est. 2014</div><h1>Make it matter.</h1><p class="lead">Auralian is an independent creative studio for brands with something real to say. We turn clear thinking into work people can feel.</p></header>
+		<section class="content">
+			<div class="kicker">Our approach</div>
+			<div><h2>Curiosity first. Clarity always.</h2><p class="copy">We work across strategy, identity, art direction, and digital experience. Every engagement begins with listening: to the audience, the tension in the category, and the opportunity hiding in plain sight.</p><p class="copy">The result is considered work with a point of view. Small teams, senior attention, and a flexible network of specialists keep the process direct from first conversation to final delivery.</p><div class="values"><article class="value"><strong>01</strong><h3>Find the signal</h3><p>We make space for the useful truth beneath the noise.</p></article><article class="value"><strong>02</strong><h3>Shape the feeling</h3><p>We build systems that are as distinctive as they are usable.</p></article><article class="value"><strong>03</strong><h3>Make it last</h3><p>We design for momentum, not just a beautiful first impression.</p></article><article class="value"><strong>04</strong><h3>Stay human</h3><p>Good collaboration should feel generous, focused, and clear.</p></article></div></div>
+		</section>
+	</main>
+	<footer><span>Auralian Studio</span><span>Available worldwide / 2026</span></footer>
+</body>
+</html>
